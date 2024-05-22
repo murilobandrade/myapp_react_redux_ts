@@ -28,12 +28,12 @@
   padding-left: 12px;
   padding-right: 12px;
   outline: none;
-  border: 2px solid transparent;
-  color: rgb(112, 76, 182);
+  border: 10px solid transparent;
+  color: white;
   padding-bottom: 4px;
   cursor: pointer;
-  background-color: rgba(112, 76, 182, 0.1);
-  border-radius: 2px;
+  background-color: rgba(56, 119, 246, 1);
+  border-radius: 7px;
   transition: all 0.15s;
 }
 

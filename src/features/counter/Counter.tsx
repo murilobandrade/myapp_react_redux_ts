@@ -9,15 +9,12 @@ export const Counter = () => {
   return (
     <div>
       <div className={styles.row}>
-        <span aria-label="Count" className={styles.value}>
-          {count}
-        </span>
         <button
           className={styles.button}
           aria-label="Increment value"
           onClick={() => dispatch(increment())}
         >
-          +
+          Click count: {count}
         </button>
       </div>
     </div>
